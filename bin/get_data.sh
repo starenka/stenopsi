@@ -7,7 +7,7 @@ do
     echo "Getting links for $year"
     TAR="$DATA_DIR/$year"
     mkdir -p $TAR
-    LINKS=$(python manage.py jednani_links $year)
+    LINKS=$(python manage.py obdobi_links $year)
     cd $TAR
     echo $LINKS | xargs -P 10 -r -n 1 wget -N   
     find -name '*.zip' -exec sh -c 'unzip -o -d "${1%.*}" "$1"' _ {} \;
