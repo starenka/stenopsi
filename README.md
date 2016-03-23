@@ -1,8 +1,9 @@
 # stenopsi
 
 Attempt to scrape, parse and index all stenographic records from Czech Parliament.
+The goal is to provide structured records in language agnostic format you can use to feed your database (f.e Elastic).
 
-So far it justs downloads all data for several past years. I'm working on parsing these files right now.
+*So far it justs downloads all data for several past years. I'm working on parsing these files right now.*
 
 ## installation
 
