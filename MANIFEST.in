@@ -1,0 +1,7 @@
+include *.pip
+
+recursive-include stenopsi *
+
+global-exclude .coverage
+global-exclude *.pyc
+global-exclude *.pyo
