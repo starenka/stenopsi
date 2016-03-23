@@ -21,5 +21,11 @@ With virtualenv activated (`source .env/bin/activate`) all actions should be acc
 
  - to get all needed data, do `make download`
  - (wip)
+ 
+## roadmap
 
-
+ - get all available data
+ - parse it
+ - provide dumps
+ - webapp to search within the data
+ 
