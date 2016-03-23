@@ -24,8 +24,8 @@ def get_conf_var(var, rettype):
 
 @cli.command()
 @click.argument('year', type=int)
-def jednani_links(year):
-    """Gets links for zipped jednani files"""
+def obdobi_links(year):
+    """Gets links for zipped obdobi files"""
     for one in scrape.get_zipped_links(year):
         print one
 
