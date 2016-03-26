@@ -36,14 +36,14 @@ def get_conf_var(var, rettype):
 @cli.command()
 @click.argument('year', type=int)
 def obdobi_links(year):
-    """Gets links for zipped obdobi files"""
+    """Gets links for zipped obdobi (year) files"""
     for one in scrape.get_zipped_links(year):
         print(one)
 
 
 @cli.command()
 def parse():
-    """Parse all years and stores them as json"""
+    """Parse all years and store them as JSON"""
 
     for year in conf.YEARS:
         log.info('Parsing year %d' % year)
