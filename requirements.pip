@@ -1,3 +1,5 @@
 requests
 click
 lxml
+beautifulsoup4
+joblib
